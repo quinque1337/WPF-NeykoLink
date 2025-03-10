@@ -4,6 +4,14 @@
 Diploma project made on _C# WFP .NET 4.72_
 Program made wiht some animations for start up and _not so uniq design xd_
 
+## Features
+
+* Animations in program
+* Captcha
+* Editing Database
+* Create Word document
+* List users with avatars
+
 ## **Screenshots**
 empty
 
