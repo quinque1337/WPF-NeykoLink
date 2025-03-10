@@ -9,6 +9,6 @@ empty
 
 <div align='center'>
 
-<b>made with ❤️ by [quinque](https://t.me/quinque1337)) and [word1337](t.me/luaenjoyer)</b>
+<b>made with ❤️ by [quinque](https://t.me/quinque1337) and [word1337](t.me/luaenjoyer)</b>
 
 </div>
