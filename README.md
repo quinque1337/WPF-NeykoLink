@@ -1,2 +1,1 @@
-# WPF-Diplom
-WPF-Diplom
+# NeykoLink
