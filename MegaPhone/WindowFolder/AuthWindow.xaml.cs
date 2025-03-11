@@ -107,17 +107,16 @@ namespace MegaPhone.WindowFolder
             Storyboard.SetTarget(hideSpinnerAnimation, Spinner);
             Storyboard.SetTargetProperty(hideSpinnerAnimation, new PropertyPath("Opacity"));
 
-            // Последовательное выполнение анимаций
             openStoryboard.Completed += (s, e) =>
             {
-                PageContent.IsHitTestVisible = false; // Блокировка взаимодействия
+                PageContent.IsHitTestVisible = false;
 
                 Task.Delay(2500).ContinueWith(_ =>
                 {
                     Dispatcher.Invoke(() =>
                     {
                         finalStoryboard.Begin();
-                        PageContent.IsHitTestVisible = true; // Разблокировка после анимации
+                        PageContent.IsHitTestVisible = true;
                     });
                 });
             };
@@ -141,20 +140,18 @@ namespace MegaPhone.WindowFolder
         {
             bool wasEmpty = string.IsNullOrWhiteSpace(previousText);
             bool isEmpty = string.IsNullOrWhiteSpace(LoginTB.Text);
-
-            // Обновляем предыдущий текст после обработки
             previousText = LoginTB.Text;
 
             if (isEmpty)
             {
-                if (!wasEmpty) // Если текст стал пустым после наличия текста
+                if (!wasEmpty)
                 {
                     StartButtonAnimation(false);
                 }
                 return;
             }
 
-            if (wasEmpty) // Если текст добавлен в пустое поле
+            if (wasEmpty)
             {
                 StartButtonAnimation(true);
             }

@@ -15,8 +15,6 @@
         WindowStyle="None"
         MouseLeftButtonDown="Window_MouseLeftButtonDown">
     <Grid>
-
-        <!-- Загрузочный бордер -->
         <Border x:Name="LoaderBorder"
                 Width="128" 
                 Height="128"
@@ -29,9 +27,7 @@
             <Border.RenderTransform>
                 <ScaleTransform ScaleX="0" ScaleY="0"/>
             </Border.RenderTransform>
-
             <Grid>
-                <!-- Спиннер -->
                 <ProgressBar x:Name="Spinner"
                              IsIndeterminate="True"
                              Style="{StaticResource MaterialDesignCircularProgressBar}"
@@ -40,14 +36,11 @@
                              Visibility="Visible"
                              Width="36"
                              Height="36"/>
-
-                <!-- Контент страницы -->
                 <Grid x:Name="PageContent"
                       Opacity="0"
                       VerticalAlignment="Center"
                       HorizontalAlignment="Center"
                       IsHitTestVisible="False">
-
                     <Grid.RowDefinitions>
                         <RowDefinition/>
                         <RowDefinition Height="86"/>
@@ -58,7 +51,6 @@
                         <RowDefinition Height="60"/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-
                     <Label x:Name="WelcomeLabel"
                            Grid.Row="1"
                            Content="NeykoLink"
@@ -69,7 +61,6 @@
                            FontWeight="Heavy"
                            Style="{DynamicResource BoldLabel}"
                            HorizontalAlignment="Center"/>
-                    
                     <TextBox x:Name="LoginTB"
                              Grid.Row="2"
                                  Width="420"
@@ -79,7 +70,6 @@
                                  md:TextFieldAssist.TextFieldCornerRadius="12"
                                  md:HintAssist.Hint="username"
                                  TextChanged="LoginTB_TextChanged"/>
-
                     <PasswordBox x:Name="PasswordPB"
                                  Grid.Row="4"
                                      Width="420"
@@ -88,7 +78,6 @@
                                      Style="{DynamicResource DefaultPasswordBox}"
                                      md:TextFieldAssist.TextFieldCornerRadius="12"
                                      md:HintAssist.Hint="password"/>
-
                     <Button x:Name="ContinueButton"
                             Grid.Row="6"
                             Width="160"
