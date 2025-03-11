@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ytrus\\source\\repos\\MegaPhone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|c:\\users\\ytrus\\source\\repos\\megaphone\\megaphone\\windowfolder\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|C:\\Users\\ytrus\\source\\repos\\MegaPhone\\megaphone\\windowfolder\\authwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\authwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|C:\\Users\\ytrus\\source\\repos\\MegaPhone\\megaphone\\resourcefolder\\dictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\resourcefolder\\dictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dictionary.xaml",
+              "DocumentMoniker": "C:\\Users\\ytrus\\source\\repos\\MegaPhone\\MegaPhone\\ResourceFolder\\Dictionary.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\ResourceFolder\\Dictionary.xaml",
+              "ToolTip": "C:\\Users\\ytrus\\source\\repos\\MegaPhone\\MegaPhone\\ResourceFolder\\Dictionary.xaml",
+              "RelativeToolTip": "MegaPhone\\ResourceFolder\\Dictionary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T21:02:01.538Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ytrus\\source\\repos\\MegaPhone\\MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ytrus\\source\\repos\\MegaPhone\\MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAYwMUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:14:10.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ytrus\\source\\repos\\MegaPhone\\MegaPhone\\WindowFolder\\AuthWindow.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\AuthWindow.xaml",
+              "ToolTip": "C:\\Users\\ytrus\\source\\repos\\MegaPhone\\MegaPhone\\WindowFolder\\AuthWindow.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\AuthWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T21:01:12.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

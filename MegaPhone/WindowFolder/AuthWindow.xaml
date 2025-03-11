@@ -1,0 +1,114 @@
+﻿<Window x:Class="MegaPhone.WindowFolder.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MegaPhone.WindowFolder"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Авторизация" 
+        Height="500" Width="620"
+        Loaded="Window_Loaded"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Grid>
+
+        <!-- Загрузочный бордер -->
+        <Border x:Name="LoaderBorder"
+                Width="128" 
+                Height="128"
+                Background="{DynamicResource DarkBlue}"
+                BorderThickness="2"
+                CornerRadius="18"
+                RenderTransformOrigin="0.5,0.5"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+            <Border.RenderTransform>
+                <ScaleTransform ScaleX="0" ScaleY="0"/>
+            </Border.RenderTransform>
+
+            <Grid>
+                <!-- Спиннер -->
+                <ProgressBar x:Name="Spinner"
+                             IsIndeterminate="True"
+                             Style="{StaticResource MaterialDesignCircularProgressBar}"
+                             Value="0"
+                             Foreground="{DynamicResource LightBlue}"
+                             Visibility="Visible"
+                             Width="36"
+                             Height="36"/>
+
+                <!-- Контент страницы -->
+                <Grid x:Name="PageContent"
+                      Opacity="0"
+                      VerticalAlignment="Center"
+                      HorizontalAlignment="Center"
+                      IsHitTestVisible="False">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="86"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="12"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="12"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Label x:Name="WelcomeLabel"
+                           Grid.Row="1"
+                           Content="NeykoLink"
+                           Foreground="{DynamicResource BigLabelColor}"
+                           FontFamily="Nunito"
+                           FontSize="48"
+                           FontStyle="Italic"
+                           FontWeight="Heavy"
+                           Style="{DynamicResource BoldLabel}"
+                           HorizontalAlignment="Center"/>
+                    
+                    <TextBox x:Name="LoginTB"
+                             Grid.Row="2"
+                                 Width="420"
+                                 Height="54"
+                                 FontSize="20"
+                                 Style="{DynamicResource DefaultTextBox}"
+                                 md:TextFieldAssist.TextFieldCornerRadius="12"
+                                 md:HintAssist.Hint="username"
+                                 TextChanged="LoginTB_TextChanged"/>
+
+                    <PasswordBox x:Name="PasswordPB"
+                                 Grid.Row="4"
+                                     Width="420"
+                                     Height="54"
+                                     FontSize="20"
+                                     Style="{DynamicResource DefaultPasswordBox}"
+                                     md:TextFieldAssist.TextFieldCornerRadius="12"
+                                     md:HintAssist.Hint="password"/>
+
+                    <Button x:Name="ContinueButton"
+                            Grid.Row="6"
+                            Width="160"
+                            Height="50"
+                            Content="Continue"
+                            Background="{DynamicResource LightBlue}"
+                            Foreground="White"
+                            FontSize="18"
+                            FontWeight="Bold"
+                            md:ButtonAssist.CornerRadius="12"
+                            Opacity="0"
+                            Visibility="Collapsed"
+                            Style="{DynamicResource MaterialDesignFlatButton}"
+                            Click="ContinueButton_Click">
+                        <Button.RenderTransform>
+                            <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+                        </Button.RenderTransform>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
