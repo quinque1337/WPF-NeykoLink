@@ -12,6 +12,7 @@ Program made wiht some animations for start up and _not so uniq design xd_
 * Create Word document with database info
 
 ## **Screenshots**
+<div align='center'>
 ![Authorization](https://github.com/user-attachments/assets/052a8201-a307-4d11-a3c0-aa7b905beae5)
 ![Authorization wrong pass](https://github.com/user-attachments/assets/5ddea201-f26c-49a2-87af-2e9d485e48f9)
 ![Capcha)](https://github.com/user-attachments/assets/8c6308f8-6474-4feb-9bc8-6999afbc42e2)
@@ -21,6 +22,7 @@ Program made wiht some animations for start up and _not so uniq design xd_
 ![Tasks Page](https://github.com/user-attachments/assets/1d2741bc-7d07-4191-9565-5175891931bc)
 
 **And etc**
+</div>
 
 <div align='center'>
 
