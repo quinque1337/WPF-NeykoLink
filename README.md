@@ -16,7 +16,10 @@ Program made wiht some animations for start up and _not so uniq design xd_
 ![Authorization](https://github.com/user-attachments/assets/052a8201-a307-4d11-a3c0-aa7b905beae5)
 ![Authorization wrong pass](https://github.com/user-attachments/assets/5ddea201-f26c-49a2-87af-2e9d485e48f9)
 ![Capcha)](https://github.com/user-attachments/assets/8c6308f8-6474-4feb-9bc8-6999afbc42e2)
-![Program](https://github.com/user-attachments/assets/760acaa3-0c21-4128-8336-74b8be9aef52)
+![App (Admin)](https://github.com/user-attachments/assets/eb68f28d-53f7-4496-8bb4-1dfdf32e5609)
+![App (Employee)](https://github.com/user-attachments/assets/814f783f-0b8d-48b8-96e7-11c400868ccf)
+![Statistic Page](https://github.com/user-attachments/assets/38c51122-b51d-402f-a406-ef8a87214b26)
+And etc.
 
 <div align='center'>
 
