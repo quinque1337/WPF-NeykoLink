@@ -3,10 +3,14 @@
                     xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes">
 
     <SolidColorBrush x:Key="DarkBlue" Color="#030D1A"/>
+    <SolidColorBrush x:Key="HintColor" Color="#42515E"/>
+    <SolidColorBrush x:Key="ErrorColor" Color="#612C32"/>
     <SolidColorBrush x:Key="LightBlue" Color="#4681FF"/>
     <SolidColorBrush x:Key="BorderColor" Color="#031C2E"/>
-    <SolidColorBrush x:Key="BigLabelColor" Color="#546AB4"/>
+    <SolidColorBrush x:Key="BigLabelColor" Color="#13649F"/>
     <SolidColorBrush x:Key="SelectionColor" Color="#13649F"/>
+    <SolidColorBrush x:Key="NotifyColor" Color="#033450"/>
+    <SolidColorBrush x:Key="Headline" Color="#03A8F5" Opacity="0.2"/>
 
     <!--Border-->
     <Style x:Key="DefaultBorder" 
@@ -23,8 +27,8 @@
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="SelectionBrush" Value="{StaticResource SelectionColor}"/>
         <Setter Property="FontFamily" Value="Nunito"/>
-        <Setter Property="FontSize" Value="16"/>
-        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="ExtraBold"/>
         <Setter Property="FontStyle" Value="Italic"/>
         <Setter Property="Padding" Value="18,0,0,0"/>
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
@@ -34,8 +38,9 @@
         <Setter Property="Width" Value="300"/>
         <Setter Property="Height" Value="56"/>
         <Setter Property="md:HintAssist.FontFamily" Value="Nunito"/>
-        <Setter Property="md:HintAssist.HintPaddingBrush" Value="{DynamicResource DarkBlue}"/>
+        <Setter Property="md:HintAssist.HintPaddingBrush" Value="{DynamicResource HintColor}"/>
         <Setter Property="md:HintAssist.IsFloating" Value="False"/>
+        <Setter Property="md:HintAssist.HintOpacity" Value="0.5"/>
     </Style>
 
     <!--PasswordBox-->
@@ -47,8 +52,8 @@
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="SelectionBrush" Value="{StaticResource SelectionColor}"/>
         <Setter Property="FontFamily" Value="Nunito"/>
-        <Setter Property="FontSize" Value="16"/>
-        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="ExtraBold"/>
         <Setter Property="FontStyle" Value="Italic"/>
         <Setter Property="Padding" Value="18,0,18,0"/>
         <Setter Property="HorizontalContentAlignment" Value="Left"/>
@@ -58,8 +63,9 @@
         <Setter Property="Width" Value="300"/>
         <Setter Property="Height" Value="56"/>
         <Setter Property="md:HintAssist.FontFamily" Value="Nunito"/>
-        <Setter Property="md:HintAssist.HintPaddingBrush" Value="{DynamicResource DarkBlue}"/>
+        <Setter Property="md:HintAssist.HintPaddingBrush" Value="{DynamicResource HintColor}"/>
         <Setter Property="md:HintAssist.IsFloating" Value="False"/>
+        <Setter Property="md:HintAssist.HintOpacity" Value="0.5"/>
     </Style>
 
 </ResourceDictionary>

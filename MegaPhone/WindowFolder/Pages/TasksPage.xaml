@@ -1,0 +1,48 @@
+﻿<Page x:Class="MegaPhone.WindowFolder.Pages.TasksPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MegaPhone.WindowFolder.Pages"
+      xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="750"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      Title="Задачи" Background="{DynamicResource DarkBlue}">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Margin="5" Text="Задачи" FontSize="24" FontFamily="Nunito" FontWeight="ExtraBold" FontStyle="Italic" VerticalAlignment="Center" Foreground="{StaticResource BigLabelColor}"/>
+        <TextBox Name="SearchTB" Margin="0,0,5,0" Width="250" md:HintAssist.Hint="Поиск" md:HintAssist.IsFloating="False" md:HintAssist.Background="{x:Null}" BorderThickness="2" BorderBrush="{DynamicResource BorderColor}" Style="{StaticResource MaterialDesignOutlinedTextBox}" Foreground="{StaticResource BigLabelColor}" FontFamily="Nunito" md:TextFieldAssist.LeadingIcon="DatabaseSearch" md:TextFieldAssist.HasLeadingIcon="True" Grid.Row="0" HorizontalAlignment="Right" Height="55" TextChanged="SearchTB_TextChanged" Grid.Column="1"/>
+
+        <DataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="5"
+          Name="TaskDG"
+          AutoGenerateColumns="False"
+          CanUserAddRows="False"
+          IsReadOnly="True"
+          SelectionMode="Single"
+          Style="{StaticResource MaterialDesignDataGrid}"
+          Background="{DynamicResource BorderColor}"
+          Foreground="{StaticResource BigLabelColor}"
+          ColumnHeaderStyle="{StaticResource MaterialDesignDataGridColumnHeader}">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding id}" Width="Auto"/>
+                <DataGridTextColumn Header="Описание" Binding="{Binding description}" Width="*"/>
+                <DataGridTextColumn Header="Категория" Binding="{Binding Categories.name}" Width="*"/>
+                <DataGridTextColumn Header="Сотрудник" Binding="{Binding Users.full_name}" Width="*"/>
+                <DataGridTextColumn Header="Дата" Binding="{Binding date, StringFormat=\{0:dd.MM.yyyy\}}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" Margin="10,0,0,0">
+            <Button Style="{StaticResource MaterialDesignIconButton}" Content="{md:PackIcon DatabaseSync, Size=35}"  BorderThickness="0" Foreground="{StaticResource BigLabelColor}" Width="50" Height="50" Margin="5" Click="Refresh"/>
+        </StackPanel>
+    </Grid>
+</Page>

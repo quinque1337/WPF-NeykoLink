@@ -13,7 +13,7 @@
         Background="Transparent"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
-        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+        MouseLeftButtonDown="Window_MouseLeftButtonDown" Icon="/ImageFolder/Round Graph.png">
     <Grid>
         <Border x:Name="LoaderBorder"
                 Width="128" 
@@ -43,58 +43,70 @@
                       IsHitTestVisible="False">
                     <Grid.RowDefinitions>
                         <RowDefinition/>
-                        <RowDefinition Height="86"/>
+                        <RowDefinition Height="85"/>
                         <RowDefinition Height="80"/>
-                        <RowDefinition Height="12"/>
-                        <RowDefinition Height="80"/>
-                        <RowDefinition Height="12"/>
-                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="55"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="90"/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-                    <Label x:Name="WelcomeLabel"
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Image Source="/ImageFolder/Round Graph.png" Width="65" Height="65" Cursor="" Margin="0,0,0,10"/>
+                        <Label x:Name="WelcomeLabel"
                            Grid.Row="1"
                            Content="NeykoLink"
                            Foreground="{DynamicResource BigLabelColor}"
                            FontFamily="Nunito"
                            FontSize="48"
                            FontStyle="Italic"
-                           FontWeight="Heavy"
+                           FontWeight="ExtraBlack"
                            Style="{DynamicResource BoldLabel}"
-                           HorizontalAlignment="Center"/>
+                           />
+                    </StackPanel>
                     <TextBox x:Name="LoginTB"
                              Grid.Row="2"
                                  Width="420"
                                  Height="54"
                                  FontSize="20"
+                                 FontFamily="Nunito"
                                  Style="{DynamicResource DefaultTextBox}"
                                  md:TextFieldAssist.TextFieldCornerRadius="12"
-                                 md:HintAssist.Hint="username"
-                                 TextChanged="LoginTB_TextChanged"/>
+                                 md:HintAssist.Hint="Логин"/>
                     <PasswordBox x:Name="PasswordPB"
                                  Grid.Row="4"
                                      Width="420"
                                      Height="54"
+                                     FontFamily="Nunito"
                                      FontSize="20"
                                      Style="{DynamicResource DefaultPasswordBox}"
                                      md:TextFieldAssist.TextFieldCornerRadius="12"
-                                     md:HintAssist.Hint="password"/>
+                                     md:HintAssist.Hint="Пароль"
+                                 md:ValidationAssist.HasError="True"/>
                     <Button x:Name="ContinueButton"
                             Grid.Row="6"
-                            Width="160"
+                            Width="300"
                             Height="50"
-                            Content="Continue"
                             Background="{DynamicResource LightBlue}"
                             Foreground="White"
+                            FontFamily="Nunito"
                             FontSize="18"
                             FontWeight="Bold"
-                            md:ButtonAssist.CornerRadius="12"
-                            Opacity="0"
-                            Visibility="Collapsed"
+                            md:ButtonAssist.CornerRadius="15"
+                            md:BottomDashedLineAdorner.Brush="{DynamicResource LightBlue}"
+                            md:RippleAssist.IsDisabled="True"
                             Style="{DynamicResource MaterialDesignFlatButton}"
                             Click="ContinueButton_Click">
                         <Button.RenderTransform>
                             <ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
                         </Button.RenderTransform>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Войти"/>
+                            <md:PackIcon
+                        Width="25"
+                        Height="28"
+                        Kind="ChevronRight" />
+                        </StackPanel>
                     </Button>
                 </Grid>
             </Grid>

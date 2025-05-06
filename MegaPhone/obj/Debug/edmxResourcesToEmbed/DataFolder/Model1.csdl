@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CRM_MFC_DataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Tasks" Relationship="Self.FK__Tasks__category___403A8C7D" FromRole="Categories" ToRole="Tasks" />
+  </EntityType>
+  <EntityType Name="Reports">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="start_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="end_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Reports__user_id__4316F928" FromRole="Reports" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tasks">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="category_id" Type="Int32" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Categories" Relationship="Self.FK__Tasks__category___403A8C7D" FromRole="Tasks" ToRole="Categories" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Tasks__user_id__3F466844" FromRole="Tasks" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password_hash" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="full_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="birth_date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Reports" Relationship="Self.FK__Reports__user_id__4316F928" FromRole="Users" ToRole="Reports" />
+    <NavigationProperty Name="Tasks" Relationship="Self.FK__Tasks__user_id__3F466844" FromRole="Users" ToRole="Tasks" />
+  </EntityType>
+  <Association Name="FK__Tasks__category___403A8C7D">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+    <End Role="Tasks" Type="Self.Tasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tasks">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reports__user_id__4316F928">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Reports" Type="Self.Reports" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Reports">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tasks__user_id__3F466844">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Tasks" Type="Self.Tasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tasks">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CRM_MFC_DataBaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Categories" />
+    <EntitySet Name="Reports" EntityType="Self.Reports" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Tasks" EntityType="Self.Tasks" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__Tasks__category___403A8C7D" Association="Self.FK__Tasks__category___403A8C7D">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Tasks" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reports__user_id__4316F928" Association="Self.FK__Reports__user_id__4316F928">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Reports" EntitySet="Reports" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tasks__user_id__3F466844" Association="Self.FK__Tasks__user_id__3F466844">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Tasks" EntitySet="Tasks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

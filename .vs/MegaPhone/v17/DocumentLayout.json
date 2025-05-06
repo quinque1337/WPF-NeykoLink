@@ -1,74 +1,638 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\",
+  "WorkspaceRootPath": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\megaphone\\windowfolder\\authwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\authwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|d:\\studies\\college\\\u0434\u043F-42\\\u0434\u0438\u043F\u043B\u043E\u043C\\wpf-neykolink-main\\megaphone\\windowfolder\\notifications\\question.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\notifications\\question.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|c:\\users\\ytrus\\source\\repos\\wpf-neykolink\\megaphone\\windowfolder\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\notifications\\notify.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\notifications\\notify.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\notifications\\error.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\notifications\\error.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\buttons_database\\buttons_employeepanel\\.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\buttons_database\\buttons_employeepanel\\.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\buttons_database\\buttons_employeepanel\\add_task.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\buttons_database\\buttons_employeepanel\\add_task.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\buttons_database\\.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\buttons_database\\.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\buttons_database\\add_employee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\buttons_database\\add_employee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\employeepanelpages\\statisticemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\employeepanelpages\\statisticemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\employeepanelpages\\statisticemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\employeepanelpages\\statisticemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\employees.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\employees.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\report.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\report.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\taskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\taskspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\statistic.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\statistic.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\notifications\\error.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\notifications\\error.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\taskspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\taskspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\resourcefolder\\dictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\resourcefolder\\dictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\classfolder\\mb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\classfolder\\mb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\employeepanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\employeepanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\employeepanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\employeepanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\capchawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\capchawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\capchawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\capchawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\megaphone\\resourcefolder\\dictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\resourcefolder\\dictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\employeepanelpages\\taskspageemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\employeepanelpages\\taskspageemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\buttons_database\\buttons_employeepanel\\add_task.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\buttons_database\\buttons_employeepanel\\add_task.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\employeepanelpages\\taskspageemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\employeepanelpages\\taskspageemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\change_password.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\change_password.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\reportemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\reportemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\buttons_database\\edit_employee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\buttons_database\\edit_employee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\buttons_database\\add_employee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\buttons_database\\add_employee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\buttons_database\\buttons_employeepanel\\edit_task.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\buttons_database\\buttons_employeepanel\\edit_task.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\reportemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\reportemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\report.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\report.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\pages\\employees.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\pages\\employees.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\notifications\\question.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\notifications\\question.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\notifications\\notify.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\notifications\\notify.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\windowfolder\\change_password.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\windowfolder\\change_password.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\megaphone\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC457EB9-302C-4FF2-B3E5-4F5A7F9D9C56}|MegaPhone\\MegaPhone.csproj|solutionrelative:megaphone\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 314,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Notify.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Notify.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Notifications\\Notify.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Notify.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Notifications\\Notify.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:09:28.794Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Error.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Error.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Notifications\\Error.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Error.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Notifications\\Error.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:09:25.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Dictionary.xaml",
-              "DocumentMoniker": "C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\MegaPhone\\ResourceFolder\\Dictionary.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\ResourceFolder\\Dictionary.xaml",
               "RelativeDocumentMoniker": "MegaPhone\\ResourceFolder\\Dictionary.xaml",
-              "ToolTip": "C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\MegaPhone\\ResourceFolder\\Dictionary.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\ResourceFolder\\Dictionary.xaml",
               "RelativeToolTip": "MegaPhone\\ResourceFolder\\Dictionary.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-10T21:02:01.538Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:07:42.712Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TasksPage.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\TasksPage.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\TasksPage.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\TasksPage.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\TasksPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:33:42.403Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TasksPage.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\TasksPage.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\TasksPage.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\TasksPage.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\TasksPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:54:38.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Statistic.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Statistic.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\Statistic.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Statistic.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\Statistic.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:15:02.088Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
-              "RelativeToolTip": "MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "Title": "Question.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Question.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Notifications\\Question.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Question.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Notifications\\Question.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T21:14:10.928Z",
+              "WhenOpened": "2025-05-03T13:39:54.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "StatisticEmployee.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\StatisticEmployee.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\StatisticEmployee.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\StatisticEmployee.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\StatisticEmployee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:10:21.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatisticEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\StatisticEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\StatisticEmployee.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\StatisticEmployee.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\StatisticEmployee.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:09:20.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Report.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Report.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\Report.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Report.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\Report.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:39:32.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employees.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Employees.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\Employees.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Employees.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\Employees.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwGgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:06:05.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add_Employee.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Add_Employee.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Add_Employee.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Add_Employee.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Add_Employee.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:49:58.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Buttons_DataBase\\.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Buttons_DataBase\\.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:46:50.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add_Task.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Add_Task.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Add_Task.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Add_Task.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Add_Task.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:21:35.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:22:30.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeePanel.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\EmployeePanel.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\EmployeePanel.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\EmployeePanel.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\EmployeePanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:03:22.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminPanel.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\AdminPanel.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\AdminPanel.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\AdminPanel.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\AdminPanel.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:03:01.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminPanel.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\AdminPanel.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\AdminPanel.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\AdminPanel.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\AdminPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T12:46:55.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CapchaWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\CapchaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\CapchaWindow.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\CapchaWindow.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\CapchaWindow.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:21:44.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CapchaWindow.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\CapchaWindow.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\CapchaWindow.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\CapchaWindow.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\CapchaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:05:03.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TasksPageEmployee.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\TasksPageEmployee.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\TasksPageEmployee.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\TasksPageEmployee.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\TasksPageEmployee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:12:48.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MB.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\ClassFolder\\MB.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\ClassFolder\\MB.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\ClassFolder\\MB.cs",
+              "RelativeToolTip": "MegaPhone\\ClassFolder\\MB.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:50:18.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Question.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Question.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Notifications\\Question.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Question.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Notifications\\Question.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:34:16.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Add_Task.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Add_Task.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Add_Task.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Add_Task.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Add_Task.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:21:36.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Add_Employee.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Add_Employee.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Add_Employee.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Add_Employee.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Add_Employee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:30:33.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Error.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Notifications\\Error.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Error.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Notifications\\Error.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:34:04.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReportEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\ReportEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\ReportEmployee.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\ReportEmployee.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\ReportEmployee.xaml.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwIEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:37:09.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Notify.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Notify.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Notifications\\Notify.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Notifications\\Notify.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Notifications\\Notify.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:34:13.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeePanel.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\EmployeePanel.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\EmployeePanel.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\EmployeePanel.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\EmployeePanel.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:03:27.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Report.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Report.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\Report.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Report.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\Report.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:39:16.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "AuthWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\MegaPhone\\WindowFolder\\AuthWindow.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\AuthWindow.xaml",
               "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\AuthWindow.xaml",
-              "ToolTip": "C:\\Users\\ytrus\\source\\repos\\WPF-NeykoLink\\MegaPhone\\WindowFolder\\AuthWindow.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\AuthWindow.xaml",
               "RelativeToolTip": "MegaPhone\\WindowFolder\\AuthWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-10T21:01:12.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T13:02:59.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\AuthWindow.xaml.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAwwH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:54:30.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReportEmployee.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\ReportEmployee.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\ReportEmployee.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\ReportEmployee.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\ReportEmployee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:37:10.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TasksPageEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\TasksPageEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\TasksPageEmployee.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\TasksPageEmployee.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\EmployeePanelPages\\TasksPageEmployee.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T13:13:12.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit_Task.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Edit_Task.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Edit_Task.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Edit_Task.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Buttons_EmployeePanel\\Edit_Task.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:22:20.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit_Employee.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Edit_Employee.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Edit_Employee.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Buttons_DataBase\\Edit_Employee.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Buttons_DataBase\\Edit_Employee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:30:31.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Change_Password.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Change_Password.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Change_Password.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Change_Password.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Change_Password.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwF0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:48:27.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Employees.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Employees.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Pages\\Employees.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Pages\\Employees.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Pages\\Employees.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:06:16.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Change_Password.xaml",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Change_Password.xaml",
+              "RelativeDocumentMoniker": "MegaPhone\\WindowFolder\\Change_Password.xaml",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\WindowFolder\\Change_Password.xaml",
+              "RelativeToolTip": "MegaPhone\\WindowFolder\\Change_Password.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T13:04:57.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MegaPhone\\App.xaml.cs",
+              "ToolTip": "D:\\Studies\\College\\\u0414\u041F-42\\\u0414\u0438\u043F\u043B\u043E\u043C\\WPF-NeykoLink-main\\MegaPhone\\App.xaml.cs",
+              "RelativeToolTip": "MegaPhone\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:54:50.926Z"
             }
           ]
         }

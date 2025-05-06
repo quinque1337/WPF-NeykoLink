@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MegaPhone.ClassFolder;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MegaPhone.WindowFolder;
+using System.Xml.Linq;
 
 namespace MegaPhone.WindowFolder
 {
@@ -124,10 +127,108 @@ namespace MegaPhone.WindowFolder
             openStoryboard.Begin();
         }
 
+        private int captchaValue = 0; // Счетчик неправильных попыток капчи
+
         private void ContinueButton_Click(object sender, RoutedEventArgs e)
         {
+            Validation();
+            Capcha();
 
+            var user = App.db.Users.FirstOrDefault(x => x.username == LoginTB.Text);
+
+            if (user == null)
+            {
+                MB.Error("Пользователь не найден!");
+                captchaValue++;
+                return;
+            }
+
+            // Получаем хэш пароля из базы данных
+            string passwordHash = user.password_hash;
+
+            bool isPasswordValid = false;
+
+            // Проверяем, хэширован ли пароль
+            if (passwordHash.StartsWith("$2a$")) // Это означает, что пароль уже хэширован (формат BCrypt)
+            {
+                // Если хэширован, проверяем его с введенным паролем
+                isPasswordValid = BCrypt.Net.BCrypt.Verify(PasswordPB.Password, passwordHash);
+            }
+            else
+            {
+                // Если пароль не хэширован, хэшируем введенный пароль и сравниваем
+                string hashedPassword = BCrypt.Net.BCrypt.HashPassword(PasswordPB.Password);
+                isPasswordValid = passwordHash == hashedPassword;
+            }
+
+            if (isPasswordValid)
+            {
+                // Если пароль правильный, продолжаем авторизацию
+                App.CurrentUser = user;
+                string role = App.CurrentUser.role;
+                switch (role)
+                {
+                    case "admin":
+                        AdminPanel adminka = new AdminPanel();
+                        adminka.Show();
+                        this.Close();
+                        break;
+                    case "employee":
+                        EmployeePanel employee_panel = new EmployeePanel();
+                        employee_panel.Show();
+                        this.Close();
+                        break;
+                    default:
+                        MB.Error("Неизвестная роль пользователя.");
+                        break;
+                }
+            }
+            else
+            {
+                MB.Error("Неверный пароль!");
+                captchaValue++;
+            }
         }
+
+
+        private void Validation()
+        {
+            if (string.IsNullOrWhiteSpace(LoginTB.Text))
+            {
+                MB.Error("Введите логин!");
+                LoginTB.Focus();
+                return;
+            }
+            else if (string.IsNullOrWhiteSpace(PasswordPB.Password))
+            {
+                MB.Error("Введите пароль!");
+                PasswordPB.Focus();
+                return;
+            }
+            else if (LoginTB.Text.Length < 3)
+            {
+                MB.Error("Логин должен содержать не менее 3 символов");
+                LoginTB.Focus();
+                return;
+            }
+            else if (PasswordPB.Password.Length < 6)
+            {
+                MB.Error("Пароль должен содержать не менее 6 символов!");
+                PasswordPB.Focus();
+                return;
+            }
+        }
+
+
+        private void Capcha()
+        {
+            if (captchaValue >= 3)
+            {
+                CapchaWindow window = new CapchaWindow();
+                window.ShowDialog();
+            }
+        }
+
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
@@ -136,55 +237,6 @@ namespace MegaPhone.WindowFolder
 
         private string previousText = string.Empty;
         private bool isAnimating = false;
-        private void LoginTB_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            bool wasEmpty = string.IsNullOrWhiteSpace(previousText);
-            bool isEmpty = string.IsNullOrWhiteSpace(LoginTB.Text);
-            previousText = LoginTB.Text;
-
-            if (isEmpty)
-            {
-                if (!wasEmpty)
-                {
-                    StartButtonAnimation(false);
-                }
-                return;
-            }
-
-            if (wasEmpty)
-            {
-                StartButtonAnimation(true);
-            }
-        }
-
-        private void StartButtonAnimation(bool show)
-        {
-            if (isAnimating) return;
-
-            DoubleAnimation animation = new DoubleAnimation
-            {
-                From = show ? 0 : 1,
-                To = show ? 1 : 0,
-                Duration = TimeSpan.FromSeconds(0.3),
-                EasingFunction = new CubicEase { EasingMode = EasingMode.EaseOut }
-            };
-
-            Storyboard storyboard = new Storyboard();
-            storyboard.Children.Add(animation);
-
-            Storyboard.SetTarget(animation, ContinueButton);
-            Storyboard.SetTargetProperty(animation, new PropertyPath(OpacityProperty));
-
-            storyboard.Completed += (s, _) => {
-                isAnimating = false;
-                if (!show) ContinueButton.Visibility = Visibility.Hidden;
-            };
-
-            if (show) ContinueButton.Visibility = Visibility.Visible;
-
-            isAnimating = true;
-            storyboard.Begin();
-        }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {

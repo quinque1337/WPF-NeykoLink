@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ytrus\source\repos\MegaPhone\MegaPhone\obj\Debug\
+D:\Studies\College\ДП-42\Диплом\WPF-NeykoLink-main\MegaPhone\obj\Debug\
 MegaPhone
 none
 false
 DEBUG;TRACE
-C:\Users\ytrus\source\repos\MegaPhone\MegaPhone\App.xaml
-31338985564
-
-7-1727181322
-16-938383795
-ResourceFolder\Dictionary.xaml;WindowFolder\AuthWindow.xaml;WindowFolder\PreviewWindow.xaml;
+D:\Studies\College\ДП-42\Диплом\WPF-NeykoLink-main\MegaPhone\App.xaml
+20-1656233697
+2-844076685
+33-816036408
+26-162263007
+ResourceFolder\Dictionary.xaml;WindowFolder\ReportEmployee.xaml;WindowFolder\Buttons_DataBase\Buttons_EmployeePanel\Add_Task.xaml;WindowFolder\Buttons_DataBase\Buttons_EmployeePanel\Edit_Task.xaml;WindowFolder\EmployeePanel.xaml;WindowFolder\AdminPanel.xaml;WindowFolder\AuthWindow.xaml;WindowFolder\Change_Password.xaml;WindowFolder\Buttons_DataBase\Edit_Employee.xaml;WindowFolder\Buttons_DataBase\Add_Employee.xaml;WindowFolder\CapchaWindow.xaml;WindowFolder\Notifications\Error.xaml;WindowFolder\Notifications\Question.xaml;WindowFolder\Notifications\Notify.xaml;WindowFolder\Pages\EmployeePanelPages\StatisticEmployee.xaml;WindowFolder\Pages\EmployeePanelPages\TasksPageEmployee.xaml;WindowFolder\Pages\Report.xaml;WindowFolder\Pages\TasksPage.xaml;WindowFolder\Pages\Employees.xaml;WindowFolder\Pages\Statistic.xaml;
 
 True
 
